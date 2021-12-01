@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@300;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #326aab;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #326aab;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.navbar {
+  background-color: #d53633;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top:0;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.navbar-item {
+  font-size: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.navbar-item img {
+  height: 70px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.navbar-link:hover {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+main{
+  padding-top: 130px;
+  background-color: #f4efe6;
+}
+
+section {
+  padding: 30px 0;
+}
+
+nav a {
+  color: #f4efe6;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  display: block;
+}
+
+#home img {
+  max-width: 800px;
+  margin: 20px;
+  border-radius: 100px;
+}
+
+
+.mugiwaras-tripulation{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.pirata{
+  margin: 20px auto;
+  max-width: 270px;
+}
+
+.pirata img{
+  object-fit: contain;
+  width: 90%;
+  height: 90%;
+}
+
+.pirata-name {
+  background-color: #d53633;
+  color: #f4efe6;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.pirata-rol {
+  font-size: 16px;
+  background-color: #e3b76e;
+  padding: 3px;
+}
+
+.pirata-dream {
+  font-size: 14px;
+  margin: 5px auto;
+}
+
+
+.allies-trips{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.allies{
+  margin: 20px 10px;
+  max-width: 280px;
+}
+
+.allies img{
+  object-fit: contain;
+  width: 280px;
+}
+
+.allies-name {
+  background-color: #248ac4;
+  color: #f4efe6;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.allies-captain {
+  font-size: 16px;
+  background-color: #e3b76e;
+  padding: 3px;
+
+}
+
+#enemigos h2 {
+  color: #d53633;
+}
+
+.enemies-trips{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.enemies{
+  margin: 20px 10px;
+  max-width: 280px;
+}
+
+.enemies img{
+  object-fit: contain;
+  width: 280px;
+}
+
+.enemies-name {
+  background-color: #000000;
+  color: #f4efe6;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.enemies-captain {
+  font-size: 16px;
+  background-color: #e3b76e;
+  padding: 3px;
+
+}
+
+
+footer {
+  background-color: #d53633;
+  color: #f4efe6;
+  padding: 10px;
+}
