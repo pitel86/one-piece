@@ -91,13 +91,12 @@ nav a {
 .mugiwaras-tripulation{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
 .pirata{
   margin: 20px auto;
-  max-width: 290px;
 }
 
 .pirata img{
@@ -128,18 +127,17 @@ nav a {
 .allies-trips{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
 .allies{
   margin: 20px 10px;
-  max-width: 280px;
 }
 
 .allies img{
   object-fit: contain;
-  width: 280px;
+  width: 310px;
 }
 
 .allies-name {
@@ -163,18 +161,17 @@ nav a {
 .enemies-trips{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: flex-start;
 }
 
 .enemies{
   margin: 20px 10px;
-  max-width: 280px;
 }
 
 .enemies img{
   object-fit: contain;
-  width: 280px;
+  width: 310px;
 }
 
 .enemies-name {
